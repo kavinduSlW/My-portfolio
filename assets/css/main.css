@@ -1007,6 +1007,18 @@ section,
   position: relative;
 }
 
+.portfolio .portfolio-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.portfolio .portfolio-item img:hover {
+  transform: scale(1.05);
+}
+
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
